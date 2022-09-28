@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="DELETE">
+        <active>true</active>
+        <app_config display_value="Fleet Vehicle Management Config">0a43b352d63819100db25335345d81c0</app_config>
+        <description/>
+        <event_mappings>[ ]</event_mappings>
+        <macroponent display_value="Record">558adc930f0210107d20409dc4767e84</macroponent>
+        <macroponent_config>{
+  "views" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "selectedTabIndex" : {
+    "type" : "JSON_LITERAL",
+    "value" : 0
+  },
+  "label" : {
+    "type" : "TRANSLATION_LITERAL",
+    "value" : {
+      "code" : null,
+      "message" : "",
+      "comment" : ""
+    }
+  },
+  "bare" : {
+    "type" : "JSON_LITERAL",
+    "value" : true
+  },
+  "scrollable" : {
+    "type" : "JSON_LITERAL",
+    "value" : "y"
+  },
+  "headerLevel" : {
+    "type" : "JSON_LITERAL",
+    "value" : "1"
+  },
+  "headingOnlyVisibleToScreenReaders" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "interceptNotifications" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "propagateNotifications" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  }
+}</macroponent_config>
+        <name>Record reference</name>
+        <order>1</order>
+        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="Record">ce43b3523b3819105577f14a8e64e0bf</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>jon.lind</sys_created_by>
+        <sys_created_on>2022-08-23 17:32:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a2e8f87087e19110ff1ffcc4dabb3544</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Record reference</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Fleet Vehicle Management" source="x_snc_flt_mgmt">89b467169738d150c6fc7e0e6253af10</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fleet Vehicle Management">89b467169738d150c6fc7e0e6253af10</sys_scope>
+        <sys_update_name>sys_ux_screen_a2e8f87087e19110ff1ffcc4dabb3544</sys_update_name>
+        <sys_updated_by>jon.lind</sys_updated_by>
+        <sys_updated_on>2022-08-23 20:45:08</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="DELETE" query="documentkey=a2e8f87087e19110ff1ffcc4dabb3544"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fleet Vehicle Management">89b467169738d150c6fc7e0e6253af10</application>
+        <file_path/>
+        <instance_id>b097d6b5dbbc91583050ac44d49619cd</instance_id>
+        <instance_name>squashdemo</instance_name>
+        <name>sys_ux_screen_a2e8f87087e19110ff1ffcc4dabb3544</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen"><sys_ux_screen action="INSERT_OR_UPDATE"><active>true</active><app_config display_value="Fleet Vehicle Management Config">0a43b352d63819100db25335345d81c0</app_config><description/><event_mappings>[ ]</event_mappings><macroponent display_value="Record">558adc930f0210107d20409dc4767e84</macroponent><macroponent_config>{
+  "views" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "selectedTabIndex" : {
+    "type" : "JSON_LITERAL",
+    "value" : 0
+  },
+  "label" : {
+    "type" : "TRANSLATION_LITERAL",
+    "value" : {
+      "code" : null,
+      "message" : "",
+      "comment" : ""
+    }
+  },
+  "bare" : {
+    "type" : "JSON_LITERAL",
+    "value" : true
+  },
+  "scrollable" : {
+    "type" : "JSON_LITERAL",
+    "value" : "y"
+  },
+  "headerLevel" : {
+    "type" : "JSON_LITERAL",
+    "value" : "1"
+  },
+  "headingOnlyVisibleToScreenReaders" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "interceptNotifications" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "propagateNotifications" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  }
+}</macroponent_config><name>Record reference</name><order>1</order><parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent><required_translations>[ ]</required_translations><rollback_screen/><screen_condition/><screen_type display_value="Record">ce43b3523b3819105577f14a8e64e0bf</screen_type><sys_class_name>sys_ux_screen</sys_class_name><sys_created_by>jon.lind</sys_created_by><sys_created_on>2022-08-23 17:32:31</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a2e8f87087e19110ff1ffcc4dabb3544</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Record reference</sys_name><sys_overrides/><sys_package display_value="Fleet Vehicle Management" source="x_snc_flt_mgmt">89b467169738d150c6fc7e0e6253af10</sys_package><sys_policy/><sys_scope display_value="Fleet Vehicle Management">89b467169738d150c6fc7e0e6253af10</sys_scope><sys_update_name>sys_ux_screen_a2e8f87087e19110ff1ffcc4dabb3544</sys_update_name><sys_updated_by>jon.lind</sys_updated_by><sys_updated_on>2022-08-23 20:45:08</sys_updated_on></sys_ux_screen><sys_translated_text action="delete_multiple" query="documentkey=a2e8f87087e19110ff1ffcc4dabb3544"/></record_update>]]></payload>
+        <payload_hash>1249565225</payload_hash>
+        <record_name>Record reference</record_name>
+        <reverted_from/>
+        <source>662dd86087a55110ff1ffcc4dabb35d1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jon.lind</sys_created_by>
+        <sys_created_on>2022-08-23 20:45:08</sys_created_on>
+        <sys_id>8005e13487659110ff1ffcc4dabb35c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182cc73aab50000001</sys_recorded_at>
+        <sys_updated_by>jon.lind</sys_updated_by>
+        <sys_updated_on>2022-08-23 20:45:08</sys_updated_on>
+        <type>UX Screen</type>
+        <update_guid>8805e13451659110c595030164f038c6</update_guid>
+        <update_guid_history>8805e13451659110c595030164f038c6:1249565225,a09974b089e191106a715a2954216961:54311480,1f093c7039e191103e6f168bb03ae7dd:1041680668,bee8f87040e19110d44e187527fd1946:525370499</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jon.lind</sys_created_by>
+        <sys_created_on>2022-08-23 20:49:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen">sys_ux_screen</sys_db_object>
+        <sys_id>28c56371127e4a5f95df2efec70b2591</sys_id>
+        <sys_metadata>a2e8f87087e19110ff1ffcc4dabb3544</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record reference</sys_name>
+        <sys_package display_value="Fleet Vehicle Management" source="x_snc_flt_mgmt">89b467169738d150c6fc7e0e6253af10</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Fleet Vehicle Management">89b467169738d150c6fc7e0e6253af10</sys_scope>
+        <sys_scope_delete display_value="">103cf2a4751b4197883305011e105169</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_a2e8f87087e19110ff1ffcc4dabb3544</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_a2e8f87087e19110ff1ffcc4dabb3544">8005e13487659110ff1ffcc4dabb35c7</sys_update_version>
+        <sys_updated_by>jon.lind</sys_updated_by>
+        <sys_updated_on>2022-08-23 20:49:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

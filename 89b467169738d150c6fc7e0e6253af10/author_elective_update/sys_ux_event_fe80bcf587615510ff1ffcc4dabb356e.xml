@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="DELETE">
+        <description/>
+        <event_name>CANCEL_MODAL</event_name>
+        <interfaces/>
+        <label>Cancel Modal</label>
+        <props>[{"name":"modalId","fieldType":"string","label":"Modal","interfaceApiName":"global.modal","typeMetadata":null,"mandatory":false,"readOnly":false},{"name":"showModal","fieldType":"boolean","label":"Open modal dialog","interfaceApiName":"","typeMetadata":null,"mandatory":false,"readOnly":false},{"name":"displayOptions","fieldType":"json","label":"Display options (advanced)","interfaceApiName":"","typeMetadata":null,"mandatory":false,"readOnly":false},{"name":"bare","fieldType":"boolean","label":"Use bare modal","interfaceApiName":"global.modal","typeMetadata":null,"mandatory":false,"readOnly":false},{"name":"viewportElementId","fieldType":"string","label":"Viewport ID","interfaceApiName":"","typeMetadata":null,"mandatory":false,"readOnly":false},{"name":"viewportRoute","fieldType":"string","label":"Viewport Route","interfaceApiName":"","typeMetadata":null,"mandatory":false,"readOnly":false},{"name":"viewportFields","fieldType":"json","label":"Viewport Fields","interfaceApiName":"","typeMetadata":null,"mandatory":false,"readOnly":false}]</props>
+        <required_translations>[ {
+  "message" : "Display options (advanced)",
+  "comment" : ""
+}, {
+  "message" : "Modal",
+  "comment" : ""
+}, {
+  "message" : "Open modal dialog",
+  "comment" : ""
+}, {
+  "message" : "Use bare modal",
+  "comment" : ""
+}, {
+  "message" : "Viewport Fields",
+  "comment" : ""
+}, {
+  "message" : "Viewport ID",
+  "comment" : ""
+}, {
+  "message" : "Viewport Route",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>jon.lind</sys_created_by>
+        <sys_created_on>2022-08-26 19:29:52</sys_created_on>
+        <sys_id>fe80bcf587615510ff1ffcc4dabb356e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cancel Modal</sys_name>
+        <sys_package display_value="Fleet Vehicle Management" source="x_snc_flt_mgmt">89b467169738d150c6fc7e0e6253af10</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fleet Vehicle Management">89b467169738d150c6fc7e0e6253af10</sys_scope>
+        <sys_update_name>sys_ux_event_fe80bcf587615510ff1ffcc4dabb356e</sys_update_name>
+        <sys_updated_by>jon.lind</sys_updated_by>
+        <sys_updated_on>2022-08-26 19:29:52</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="DELETE" query="documentkey=fe80bcf587615510ff1ffcc4dabb356e"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fleet Vehicle Management">89b467169738d150c6fc7e0e6253af10</application>
+        <file_path/>
+        <instance_id>b097d6b5dbbc91583050ac44d49619cd</instance_id>
+        <instance_name>squashdemo</instance_name>
+        <name>sys_ux_event_fe80bcf587615510ff1ffcc4dabb356e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event"><sys_ux_event action="INSERT_OR_UPDATE"><description/><event_name>CANCEL_MODAL</event_name><interfaces/><label>Cancel Modal</label><props>[{"name":"modalId","fieldType":"string","label":"Modal","interfaceApiName":"global.modal","typeMetadata":null,"mandatory":false,"readOnly":false},{"name":"showModal","fieldType":"boolean","label":"Open modal dialog","interfaceApiName":"","typeMetadata":null,"mandatory":false,"readOnly":false},{"name":"displayOptions","fieldType":"json","label":"Display options (advanced)","interfaceApiName":"","typeMetadata":null,"mandatory":false,"readOnly":false},{"name":"bare","fieldType":"boolean","label":"Use bare modal","interfaceApiName":"global.modal","typeMetadata":null,"mandatory":false,"readOnly":false},{"name":"viewportElementId","fieldType":"string","label":"Viewport ID","interfaceApiName":"","typeMetadata":null,"mandatory":false,"readOnly":false},{"name":"viewportRoute","fieldType":"string","label":"Viewport Route","interfaceApiName":"","typeMetadata":null,"mandatory":false,"readOnly":false},{"name":"viewportFields","fieldType":"json","label":"Viewport Fields","interfaceApiName":"","typeMetadata":null,"mandatory":false,"readOnly":false}]</props><required_translations>[ {
+  "message" : "Display options (advanced)",
+  "comment" : ""
+}, {
+  "message" : "Modal",
+  "comment" : ""
+}, {
+  "message" : "Open modal dialog",
+  "comment" : ""
+}, {
+  "message" : "Use bare modal",
+  "comment" : ""
+}, {
+  "message" : "Viewport Fields",
+  "comment" : ""
+}, {
+  "message" : "Viewport ID",
+  "comment" : ""
+}, {
+  "message" : "Viewport Route",
+  "comment" : ""
+} ]</required_translations><schema_version>1.0.0</schema_version><sys_class_name>sys_ux_event</sys_class_name><sys_created_by>jon.lind</sys_created_by><sys_created_on>2022-08-26 19:29:52</sys_created_on><sys_id>fe80bcf587615510ff1ffcc4dabb356e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Cancel Modal</sys_name><sys_package display_value="Fleet Vehicle Management" source="x_snc_flt_mgmt">89b467169738d150c6fc7e0e6253af10</sys_package><sys_policy/><sys_scope display_value="Fleet Vehicle Management">89b467169738d150c6fc7e0e6253af10</sys_scope><sys_update_name>sys_ux_event_fe80bcf587615510ff1ffcc4dabb356e</sys_update_name><sys_updated_by>jon.lind</sys_updated_by><sys_updated_on>2022-08-26 19:29:52</sys_updated_on></sys_ux_event><sys_translated_text action="delete_multiple" query="documentkey=fe80bcf587615510ff1ffcc4dabb356e"/></record_update>]]></payload>
+        <payload_hash>-527607799</payload_hash>
+        <record_name>Cancel Modal</record_name>
+        <reverted_from/>
+        <source>662dd86087a55110ff1ffcc4dabb35d1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jon.lind</sys_created_by>
+        <sys_created_on>2022-08-26 19:29:52</sys_created_on>
+        <sys_id>fe8034f987615510ff1ffcc4dabb3547</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182dba1d56d0000001</sys_recorded_at>
+        <sys_updated_by>jon.lind</sys_updated_by>
+        <sys_updated_on>2022-08-26 19:29:52</sys_updated_on>
+        <type>UX Event</type>
+        <update_guid>3e80bcf52b6155105841b4f8b7e0c872</update_guid>
+        <update_guid_history>3e80bcf52b6155105841b4f8b7e0c872:-527607799</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jon.lind</sys_created_by>
+        <sys_created_on>2022-08-26 19:50:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_event">sys_ux_event</sys_db_object>
+        <sys_id>c5867d4c3ab847f8bfecaf509d77ed44</sys_id>
+        <sys_metadata>fe80bcf587615510ff1ffcc4dabb356e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cancel Modal</sys_name>
+        <sys_package display_value="Fleet Vehicle Management" source="x_snc_flt_mgmt">89b467169738d150c6fc7e0e6253af10</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Fleet Vehicle Management">89b467169738d150c6fc7e0e6253af10</sys_scope>
+        <sys_scope_delete display_value="">103cf2a4751b4197883305011e105169</sys_scope_delete>
+        <sys_update_name>sys_ux_event_fe80bcf587615510ff1ffcc4dabb356e</sys_update_name>
+        <sys_update_version display_value="sys_ux_event_fe80bcf587615510ff1ffcc4dabb356e">fe8034f987615510ff1ffcc4dabb3547</sys_update_version>
+        <sys_updated_by>jon.lind</sys_updated_by>
+        <sys_updated_on>2022-08-26 19:50:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
