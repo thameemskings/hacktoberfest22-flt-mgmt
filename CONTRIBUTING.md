@@ -17,6 +17,10 @@
 7. In Studio, commit your changes to source control
 8. Submit a pull request to the ServiceNowDevProgram/example-instancescan-checks
  `main` branch
+ 
+## Use variants instead of modifying an existing page
+
+**Required**. If you are modifying an existing page, duplicate that page into a new variant and modify your variant.
 
 ## Things you can try when adding to this application
 
