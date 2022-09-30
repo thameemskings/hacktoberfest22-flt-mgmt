@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>request</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>eriemer</sys_created_by>
+        <sys_created_on>2022-09-30 04:33:55</sys_created_on>
+        <sys_id>a113f5381b9e9d10b7c3dc6cdc4bcb5d</sys_id>
+        <sys_name>request</sys_name>
+        <sys_package display_value="Fleet Vehicle Management" source="x_snc_flt_mgmt">89b467169738d150c6fc7e0e6253af10</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fleet Vehicle Management">89b467169738d150c6fc7e0e6253af10</sys_scope>
+        <sys_update_name>sys_ui_policy_action_a113f5381b9e9d10b7c3dc6cdc4bcb5d</sys_update_name>
+        <table>x_snc_flt_mgmt_maint_task</table>
+        <ui_policy display_value="Parent Request fields read only">6f32f9b41b9e9d10b7c3dc6cdc4bcbd5</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>
