@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>Sidebar</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>eriemer</sys_created_by>
+        <sys_created_on>2022-10-02 03:56:28</sys_created_on>
+        <sys_id>b2bdfb191bd25110b7c3dc6cdc4bcb0e</sys_id>
+        <sys_name>Sidebar</sys_name>
+        <sys_package display_value="Fleet Vehicle Management" source="x_snc_flt_mgmt">89b467169738d150c6fc7e0e6253af10</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fleet Vehicle Management">89b467169738d150c6fc7e0e6253af10</sys_scope>
+        <sys_update_name>sys_ui_view_b2bdfb191bd25110b7c3dc6cdc4bcb0e</sys_update_name>
+        <title>Sidebar</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

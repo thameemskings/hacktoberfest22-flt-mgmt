@@ -7,21 +7,61 @@
   "elementId" : "list__simple_1",
   "elementLabel" : "List - Simple 1",
   "propertyValues" : {
-    "listTitle" : {
-      "type" : "TRANSLATION_LITERAL",
-      "value" : {
-        "code" : null,
-        "message" : "Vehicle Request History (Reference)",
-        "comment" : ""
-      }
-    },
-    "table" : {
+    "hideUnnecessaryRowSelectors" : {
       "type" : "JSON_LITERAL",
-      "value" : "x_snc_flt_mgmt_maint_req"
+      "value" : true
     },
-    "fixedQuery" : {
+    "limit" : {
+      "type" : "JSON_LITERAL",
+      "value" : 20
+    },
+    "hideLastRefreshedText" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideColumnReorder" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "hideMenuButton" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "hideHighlightedValues" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideRowSelector" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideMultiEdit" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "recordSelectedTable" : {
       "type" : "JSON_LITERAL",
       "value" : ""
+    },
+    "hideCheckboxHover" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "hideHeader" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideLastPage" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hidePages" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideRowCount" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
     },
     "query" : {
       "type" : "CLIENT_TRANSFORM",
@@ -45,43 +85,19 @@
         "operator" : "CONCAT"
       }
     },
-    "columns" : {
-      "type" : "JSON_LITERAL",
-      "value" : "number,short_description,sys_created_on"
-    },
-    "groupByField" : {
-      "type" : "JSON_LITERAL",
-      "value" : ""
-    },
-    "limit" : {
-      "type" : "JSON_LITERAL",
-      "value" : 20
-    },
-    "maxColumns" : {
-      "type" : "JSON_LITERAL",
-      "value" : 5
-    },
-    "page" : {
-      "type" : "JSON_LITERAL",
-      "value" : 1
-    },
-    "highlightedValueConfigId" : {
-      "type" : "JSON_LITERAL",
-      "value" : ""
-    },
-    "hideHighlightedValues" : {
+    "hideFilterPanel" : {
       "type" : "JSON_LITERAL",
       "value" : false
     },
-    "hideHeader" : {
+    "hideHighlightContent" : {
       "type" : "JSON_LITERAL",
       "value" : false
     },
-    "hideTitle" : {
+    "hideLimitSelector" : {
       "type" : "JSON_LITERAL",
       "value" : false
     },
-    "hideTitleRowCount" : {
+    "hideEmptyStateImage" : {
       "type" : "JSON_LITERAL",
       "value" : false
     },
@@ -89,41 +105,141 @@
       "type" : "JSON_LITERAL",
       "value" : false
     },
-    "hideLastRefreshedText" : {
-      "type" : "JSON_LITERAL",
-      "value" : false
-    },
-    "hideColumnGrouping" : {
+    "hideQuickEdit" : {
       "type" : "JSON_LITERAL",
       "value" : true
     },
-    "hideColumnFiltering" : {
-      "type" : "JSON_LITERAL",
-      "value" : true
+    "listTitle" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "Vehicle Request History (Reference)",
+        "comment" : ""
+      }
     },
-    "hideColumnSorting" : {
+    "groupByField" : {
       "type" : "JSON_LITERAL",
-      "value" : false
+      "value" : ""
     },
-    "hidePersonalization" : {
+    "fixedQuery" : {
       "type" : "JSON_LITERAL",
-      "value" : true
-    },
-    "hideColumnReorder" : {
-      "type" : "JSON_LITERAL",
-      "value" : true
+      "value" : ""
     },
     "hideDotwalk" : {
       "type" : "JSON_LITERAL",
       "value" : true
     },
+    "hideDeclarativeActions" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideRange" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "page" : {
+      "type" : "JSON_LITERAL",
+      "value" : 1
+    },
+    "hidePanelRestore" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideDBViews" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "highlightedValueConfigId" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "maxCharLimit" : {
+      "type" : "JSON_LITERAL",
+      "value" : 4000
+    },
+    "columns" : {
+      "type" : "JSON_LITERAL",
+      "value" : "number,short_description,sys_created_on"
+    },
+    "hideLinks" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "wordWrap" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideTitleRowCount" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideColumnFiltering" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "hidePanelAdvanced" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "maxColumns" : {
+      "type" : "JSON_LITERAL",
+      "value" : 5
+    },
+    "hidePreviousPage" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hidePanelFooter" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
     "hideInlineEditing" : {
       "type" : "JSON_LITERAL",
       "value" : true
     },
-    "hideHighlightContent" : {
+    "hidePagination" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "hidePanelConditionDelete" : {
       "type" : "JSON_LITERAL",
       "value" : false
+    },
+    "table" : {
+      "type" : "JSON_LITERAL",
+      "value" : "x_snc_flt_mgmt_maint_req"
+    },
+    "hideColumnGrouping" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "hideCellFilter" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "hideNextPage" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "recordSelectedSysId" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "recordSelectedView" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "hidePanel" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "hideColumnResizing" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "refreshRequested" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
     },
     "highlightContent" : {
       "type" : "JSON_LITERAL",
@@ -132,23 +248,15 @@
         "color" : ""
       }
     },
-    "hideLinks" : {
+    "hideSelectAll" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "hideTitle" : {
       "type" : "JSON_LITERAL",
       "value" : false
     },
-    "hideViewAll" : {
-      "type" : "JSON_LITERAL",
-      "value" : true
-    },
-    "hideCellFilter" : {
-      "type" : "JSON_LITERAL",
-      "value" : true
-    },
-    "hideCheckboxHover" : {
-      "type" : "JSON_LITERAL",
-      "value" : true
-    },
-    "hideFilterPanel" : {
+    "hideColumnSorting" : {
       "type" : "JSON_LITERAL",
       "value" : false
     },
@@ -156,125 +264,21 @@
       "type" : "JSON_LITERAL",
       "value" : false
     },
-    "hideLastPage" : {
-      "type" : "JSON_LITERAL",
-      "value" : false
-    },
-    "hideLimitSelector" : {
-      "type" : "JSON_LITERAL",
-      "value" : false
-    },
-    "hideMenuButton" : {
-      "type" : "JSON_LITERAL",
-      "value" : true
-    },
-    "hideMultiEdit" : {
-      "type" : "JSON_LITERAL",
-      "value" : false
-    },
-    "hideDeclarativeActions" : {
-      "type" : "JSON_LITERAL",
-      "value" : false
-    },
-    "hideNextPage" : {
-      "type" : "JSON_LITERAL",
-      "value" : false
-    },
-    "hidePages" : {
-      "type" : "JSON_LITERAL",
-      "value" : false
-    },
-    "hidePagination" : {
-      "type" : "JSON_LITERAL",
-      "value" : true
-    },
-    "hidePanel" : {
-      "type" : "JSON_LITERAL",
-      "value" : true
-    },
-    "hidePanelAdvanced" : {
-      "type" : "JSON_LITERAL",
-      "value" : false
-    },
-    "hidePanelConditionDelete" : {
-      "type" : "JSON_LITERAL",
-      "value" : false
-    },
-    "hidePanelFooter" : {
-      "type" : "JSON_LITERAL",
-      "value" : false
-    },
-    "hidePanelRestore" : {
-      "type" : "JSON_LITERAL",
-      "value" : false
-    },
-    "hidePreviousPage" : {
-      "type" : "JSON_LITERAL",
-      "value" : false
-    },
-    "hideQuickEdit" : {
-      "type" : "JSON_LITERAL",
-      "value" : true
-    },
-    "hideRange" : {
-      "type" : "JSON_LITERAL",
-      "value" : false
-    },
-    "hideRowCount" : {
-      "type" : "JSON_LITERAL",
-      "value" : false
-    },
-    "hideRowSelector" : {
-      "type" : "JSON_LITERAL",
-      "value" : false
-    },
-    "hideSelectAll" : {
-      "type" : "JSON_LITERAL",
-      "value" : true
-    },
-    "hideEmptyStateImage" : {
-      "type" : "JSON_LITERAL",
-      "value" : false
-    },
-    "hideDBViews" : {
-      "type" : "JSON_LITERAL",
-      "value" : false
-    },
-    "hideUnnecessaryRowSelectors" : {
-      "type" : "JSON_LITERAL",
-      "value" : true
-    },
     "overrideWordWrapUserPref" : {
       "type" : "JSON_LITERAL",
       "value" : false
-    },
-    "wordWrap" : {
-      "type" : "JSON_LITERAL",
-      "value" : false
-    },
-    "maxCharLimit" : {
-      "type" : "JSON_LITERAL",
-      "value" : 4000
-    },
-    "refreshRequested" : {
-      "type" : "JSON_LITERAL",
-      "value" : null
-    },
-    "recordSelectedTable" : {
-      "type" : "JSON_LITERAL",
-      "value" : ""
-    },
-    "recordSelectedSysId" : {
-      "type" : "JSON_LITERAL",
-      "value" : ""
     },
     "recordSelectedQuery" : {
       "type" : "JSON_LITERAL",
       "value" : ""
     },
-    "recordSelectedView" : {
+    "hidePersonalization" : {
       "type" : "JSON_LITERAL",
-      "value" : ""
+      "value" : true
+    },
+    "hideViewAll" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
     }
   },
   "eventMappings" : [ {
@@ -337,12 +341,115 @@
     "value" : null
   },
   "isHero" : false,
+  "extensionPoints" : [ ],
   "isNonDestructive" : false,
+  "items" : [ ],
+  "styles" : { }
+}, {
+  "elementId" : "display_only_form_1",
+  "elementLabel" : "Display Only Form 1",
+  "propertyValues" : {
+    "view" : {
+      "type" : "JSON_LITERAL",
+      "value" : "Sidebar"
+    },
+    "readOnlyForm" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "workspaceConfigId" : {
+      "type" : "JSON_LITERAL",
+      "value" : "7b24ceae5304130084acddeeff7b12a3"
+    },
+    "sysId" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "vehicleId" ],
+        "category" : "props"
+      }
+    },
+    "forcedViewName" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "query" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "table" : {
+      "type" : "JSON_LITERAL",
+      "value" : "x_snc_flt_mgmt_vehicle"
+    },
+    "inUiBuilder" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : null,
+  "definition" : {
+    "id" : "f4d3254a798ef092d9023d408f257789",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  },
+  "isHero" : false,
+  "extensionPoints" : [ ],
+  "isNonDestructive" : false,
+  "items" : [ ],
   "styles" : { }
 } ]</composition>
         <da_relay_models/>
-        <data>[ ]</data>
+        <data>[ {
+  "definition" : {
+    "id" : "029f04e053610110ac9bddeeff7b1294",
+    "type" : "CONTROLLER"
+  },
+  "dependencies" : { },
+  "elementId" : "record_1",
+  "elementLabel" : "Record 1",
+  "eventMappings" : [ ],
+  "inputValues" : {
+    "inputTable" : {
+      "type" : "JSON_LITERAL",
+      "value" : "x_snc_flt_mgmt_vehicle"
+    },
+    "inputSysId" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "vehicleId" ],
+        "category" : "props"
+      }
+    },
+    "inputQuery" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "view" : {
+      "type" : "JSON_LITERAL",
+      "value" : "default view"
+    },
+    "forcedViewName" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "detailsContext" : {
+      "type" : "JSON_LITERAL",
+      "value" : { }
+    },
+    "inputExtraParams" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    }
+  },
+  "readEvaluationMode" : "EAGER"
+} ]</data>
+        <description/>
         <dispatched_events/>
+        <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <handled_events/>
         <interactions/>
@@ -352,7 +459,7 @@
   "default" : {
     "children" : null,
     "isInline" : null,
-    "items" : [{"element_id":"list__simple_1","styles":{}}],
+    "items" : [{"element_id":"list__simple_1","styles":{}},{"element_id":"display_only_form_1","styles":{}}],
     "root" : null,
     "rules" : null,
     "styles" : {"flex-direction":"column"},
@@ -363,6 +470,7 @@
 }</layout>
         <macroponent_dependencies/>
         <name>Vehicle History Tab</name>
+        <output_prop_mapping/>
         <props>[ {
   "name" : "vehicleId",
   "label" : "vehicleId",
@@ -389,13 +497,10 @@
         <sys_created_by>jon.lind</sys_created_by>
         <sys_created_on>2022-08-23 18:04:01</sys_created_on>
         <sys_id>402045f487e19110ff1ffcc4dabb3536</sys_id>
-        <sys_mod_count>7</sys_mod_count>
         <sys_name>Vehicle History Tab</sys_name>
         <sys_package display_value="Fleet Vehicle Management" source="x_snc_flt_mgmt">89b467169738d150c6fc7e0e6253af10</sys_package>
         <sys_policy/>
         <sys_scope display_value="Fleet Vehicle Management">89b467169738d150c6fc7e0e6253af10</sys_scope>
         <sys_update_name>sys_ux_macroponent_402045f487e19110ff1ffcc4dabb3536</sys_update_name>
-        <sys_updated_by>jon.lind</sys_updated_by>
-        <sys_updated_on>2022-08-24 19:56:37</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>
