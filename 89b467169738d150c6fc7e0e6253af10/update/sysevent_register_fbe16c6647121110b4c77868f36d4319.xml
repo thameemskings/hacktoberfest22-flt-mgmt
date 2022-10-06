@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <caller_access/>
+        <description>Event Fired by the scheduled job for the coming maintenance </description>
+        <event_name>x_snc_flt_mgmt.maintenance_due</event_name>
+        <fired_by/>
+        <queue/>
+        <suffix>maintenance_due</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-05 09:10:08</sys_created_on>
+        <sys_id>fbe16c6647121110b4c77868f36d4319</sys_id>
+        <sys_name>x_snc_flt_mgmt.maintenance_due</sys_name>
+        <sys_package display_value="Fleet Vehicle Management" source="x_snc_flt_mgmt">89b467169738d150c6fc7e0e6253af10</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fleet Vehicle Management">89b467169738d150c6fc7e0e6253af10</sys_scope>
+        <sys_update_name>sysevent_register_fbe16c6647121110b4c77868f36d4319</sys_update_name>
+        <table>x_snc_flt_mgmt_vehicle</table>
+    </sysevent_register>
+</record_update>
