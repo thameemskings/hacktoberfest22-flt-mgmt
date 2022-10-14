@@ -4,10 +4,10 @@
         <app_config display_value="Fleet Vehicle Management Config">0a43b352d63819100db25335345d81c0</app_config>
         <description/>
         <event_mappings/>
-        <macroponent display_value="Record">558adc930f0210107d20409dc4767e84</macroponent>
-        <macroponent_config/>
-        <name>Record Default</name>
-        <order>999</order>
+        <macroponent display_value="New Record Page">f2fa4a0887ee1190e2a2ed740cbb355d</macroponent>
+        <macroponent_config>{ }</macroponent_config>
+        <name>New Record Page</name>
+        <order>1</order>
         <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
         <required_translations>[ ]</required_translations>
         <rollback_screen/>
@@ -15,16 +15,16 @@
         <screen_type display_value="Record">ce43b3523b3819105577f14a8e64e0bf</screen_type>
         <sys_class_name>sys_ux_screen</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-07-22 16:10:35</sys_created_on>
+        <sys_created_on>2022-10-10 08:38:25</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>0243b3529e38191000a6a3efee013bc0</sys_id>
-        <sys_name>Record Default</sys_name>
+        <sys_id>3afa4a4887ee1190e2a2ed740cbb351c</sys_id>
+        <sys_name>New Record Page</sys_name>
         <sys_overrides/>
         <sys_package display_value="Fleet Vehicle Management" source="x_snc_flt_mgmt">89b467169738d150c6fc7e0e6253af10</sys_package>
         <sys_policy/>
         <sys_scope display_value="Fleet Vehicle Management">89b467169738d150c6fc7e0e6253af10</sys_scope>
-        <sys_update_name>sys_ux_screen_0243b3529e38191000a6a3efee013bc0</sys_update_name>
+        <sys_update_name>sys_ux_screen_3afa4a4887ee1190e2a2ed740cbb351c</sys_update_name>
     </sys_ux_screen>
-    <sys_translated_text action="delete_multiple" query="documentkey=0243b3529e38191000a6a3efee013bc0"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=3afa4a4887ee1190e2a2ed740cbb351c"/>
 </record_update>
