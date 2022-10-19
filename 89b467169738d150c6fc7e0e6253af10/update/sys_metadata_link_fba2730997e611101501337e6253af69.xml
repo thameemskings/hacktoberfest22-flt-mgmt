@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>88227fc597e611101501337e6253af9e</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_flt_mgmt_model">
+    <x_snc_flt_mgmt_model action="INSERT_OR_UPDATE">
+        <manufacturer/>
+        <model>Pearl capsule</model>
+        <model_name>2018  Pearl capsule</model_name>
+        <notes/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-13 18:43:38</sys_created_on>
+        <sys_id>88227fc597e611101501337e6253af9e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-13 18:44:42</sys_updated_on>
+        <type>Car</type>
+        <year>2018</year>
+    </x_snc_flt_mgmt_model>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-13 18:45:25</sys_created_on>
+        <sys_id>fba2730997e611101501337e6253af69</sys_id>
+        <sys_name>2018  Pearl capsule</sys_name>
+        <sys_package display_value="Fleet Vehicle Management" source="x_snc_flt_mgmt">89b467169738d150c6fc7e0e6253af10</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fleet Vehicle Management">89b467169738d150c6fc7e0e6253af10</sys_scope>
+        <sys_update_name>sys_metadata_link_fba2730997e611101501337e6253af69</sys_update_name>
+        <tablename>x_snc_flt_mgmt_model</tablename>
+    </sys_metadata_link>
+</record_update>
