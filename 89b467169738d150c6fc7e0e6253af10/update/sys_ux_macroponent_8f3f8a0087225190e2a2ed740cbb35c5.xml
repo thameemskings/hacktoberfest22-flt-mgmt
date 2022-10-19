@@ -1466,10 +1466,10 @@
   "default" : {
     "children" : null,
     "isInline" : null,
-    "items" : [{"element_id":"image_1","styles":{"align-self":"center","height":"","max-height":"","flex":"none","grid-area":"Banner"}},{"element_id":"stylized_text_1","styles":{"grid-area":"Welcome-message","align-self":"center","justify-self":"start","margin":"var(--now-static-space--lg)"}},{"element_id":"single_score_2","styles":{"grid-area":"DV3","align-self":"center","justify-self":"center"}},{"element_id":"single_score_1","styles":{"grid-area":"Dv4","align-self":"center","justify-self":"center"}},{"element_id":"single_score_3","styles":{"height":"350px","width":"","grid-area":"DV1"}},{"element_id":"list__simple_1","styles":{"grid-area":"Table"}}],
+    "items" : [{"element_id":"image_1","styles":{"align-self":"start","height":"","max-height":"","flex":"none","grid-area":"Banner"}},{"element_id":"stylized_text_1","styles":{"grid-area":"Welcome-message","align-self":"center","justify-self":"start","margin":"var(--now-static-space--lg)"}},{"element_id":"single_score_2","styles":{"grid-area":"DV3","align-self":"center","justify-self":"center"}},{"element_id":"single_score_1","styles":{"grid-area":"Dv4","align-self":"center","justify-self":"center"}},{"element_id":"single_score_3","styles":{"height":"350px","width":"","grid-area":"DV1","align-self":"center","justify-self":"center"}},{"element_id":"list__simple_1","styles":{"grid-area":"Table","align-self":"center","justify-self":"center"}}],
     "root" : null,
     "rules" : null,
-    "styles" : {"grid-template-rows":"minmax(400px,auto) 1fr 1fr","grid-template-columns":"1fr 1fr 1fr 1fr","grid-template-areas":"\"Welcome-message Banner Banner Banner\" \"DV1 DV1 DV3 Dv4\" \"Table Table Table Table\"","grid-gap":"1rem","height":"100%","gap":"var(--now-static-space--md)"},
+    "styles" : {"grid-template-rows":"minmax(400px,auto) 1fr 1fr","grid-template-columns":"1fr 1fr 1fr 1fr","grid-template-areas":"\"Welcome-message Banner Banner Banner\" \"DV1 DV1 DV3 Dv4\" \"Table Table Table Table\"","grid-gap":"1rem","height":"100%","gap":"var(--now-static-space--xxs)","align-items":"center","justify-items":"center","align-content":"center","margin":"var(--now-static-space--lg)"},
     "templateId" : "28bde4cd53431010e6bcddeeff7b12cc",
     "type" : "grid"
   },
@@ -1507,10 +1507,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-10-10 08:57:00</sys_created_on>
         <sys_id>8f3f8a0087225190e2a2ed740cbb35c5</sys_id>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Home default Copy</sys_name>
         <sys_package display_value="Fleet Vehicle Management" source="x_snc_flt_mgmt">89b467169738d150c6fc7e0e6253af10</sys_package>
         <sys_policy/>
         <sys_scope display_value="Fleet Vehicle Management">89b467169738d150c6fc7e0e6253af10</sys_scope>
         <sys_update_name>sys_ux_macroponent_8f3f8a0087225190e2a2ed740cbb35c5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 07:07:46</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>
