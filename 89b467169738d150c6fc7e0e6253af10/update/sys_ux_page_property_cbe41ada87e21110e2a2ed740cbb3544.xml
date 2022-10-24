@@ -11,7 +11,7 @@
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-10-17 09:08:10</sys_created_on>
         <sys_domain>global</sys_domain>
-        <sys_domain_path>global</sys_domain_path>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>cbe41ada87e21110e2a2ed740cbb3544</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>featureRoutes</sys_name>

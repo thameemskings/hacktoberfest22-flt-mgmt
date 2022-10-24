@@ -582,9 +582,7 @@
 } ]</composition>
         <da_relay_models/>
         <data>[ ]</data>
-        <description/>
         <dispatched_events/>
-        <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <handled_events/>
         <interactions/>
@@ -605,7 +603,6 @@
 }</layout>
         <macroponent_dependencies/>
         <name>Vehicle info start</name>
-        <output_prop_mapping/>
         <props>[ {
   "name" : "vehicleId",
   "label" : "vehicleId",
@@ -635,10 +632,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-24 21:01:58</sys_created_on>
         <sys_id>ac72b68997699910c6fc7e0e6253af79</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Vehicle info start</sys_name>
         <sys_package display_value="Fleet Vehicle Management" source="x_snc_flt_mgmt">89b467169738d150c6fc7e0e6253af10</sys_package>
         <sys_policy/>
         <sys_scope display_value="Fleet Vehicle Management">89b467169738d150c6fc7e0e6253af10</sys_scope>
         <sys_update_name>sys_ux_macroponent_ac72b68997699910c6fc7e0e6253af79</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-24 08:26:25</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>

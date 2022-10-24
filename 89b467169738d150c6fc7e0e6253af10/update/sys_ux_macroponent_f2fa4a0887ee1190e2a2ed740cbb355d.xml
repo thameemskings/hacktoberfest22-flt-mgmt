@@ -3771,9 +3771,7 @@
   },
   "readEvaluationMode" : "EAGER"
 } ]</data>
-        <description/>
         <dispatched_events>027534ecc33201103581a5a1d840ddee</dispatched_events>
-        <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <handled_events/>
         <interactions/>
@@ -3794,7 +3792,6 @@
 }</layout>
         <macroponent_dependencies/>
         <name>New Record Page</name>
-        <output_prop_mapping/>
         <props>[ {
   "name" : "screen",
   "label" : "screen",
@@ -3970,10 +3967,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-10-10 08:38:24</sys_created_on>
         <sys_id>f2fa4a0887ee1190e2a2ed740cbb355d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>New Record Page</sys_name>
         <sys_package display_value="Fleet Vehicle Management" source="x_snc_flt_mgmt">89b467169738d150c6fc7e0e6253af10</sys_package>
         <sys_policy/>
         <sys_scope display_value="Fleet Vehicle Management">89b467169738d150c6fc7e0e6253af10</sys_scope>
         <sys_update_name>sys_ux_macroponent_f2fa4a0887ee1190e2a2ed740cbb355d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-24 08:26:25</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>

@@ -11,7 +11,7 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-22 16:10:35</sys_created_on>
         <sys_domain>global</sys_domain>
-        <sys_domain_path>global</sys_domain_path>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>4e43b3521a381910175fc45e797721bd</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>chrome_preferences</sys_name>

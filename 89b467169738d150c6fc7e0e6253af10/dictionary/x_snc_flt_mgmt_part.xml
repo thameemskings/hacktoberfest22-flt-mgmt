@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Part" max_length="40" name="x_snc_flt_mgmt_part" sizeclass="2" type="collection">
+    <element label="Part" max_length="40" name="x_snc_flt_mgmt_part" type="collection">
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element display="true" label="Part name" max_length="100" name="part_name" type="string"/>
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Part reference" max_length="32" name="part_reference" reference="x_snc_flt_mgmt_part_reference" type="reference"/>

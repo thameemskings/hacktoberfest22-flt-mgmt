@@ -12,7 +12,7 @@
         <required_translations>[ ]</required_translations>
         <rollback_screen/>
         <screen_condition/>
-        <screen_type display_value="GQL Test">a483b3521b3819101363ff37dc4bcb9e</screen_type>
+        <screen_type/>
         <sys_class_name>sys_ux_screen</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-22 16:11:33</sys_created_on>

@@ -8,11 +8,14 @@
         <sys_created_by>eriemer</sys_created_by>
         <sys_created_on>2022-09-30 04:33:55</sys_created_on>
         <sys_id>a113f5381b9e9d10b7c3dc6cdc4bcb5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>request</sys_name>
         <sys_package display_value="Fleet Vehicle Management" source="x_snc_flt_mgmt">89b467169738d150c6fc7e0e6253af10</sys_package>
         <sys_policy/>
         <sys_scope display_value="Fleet Vehicle Management">89b467169738d150c6fc7e0e6253af10</sys_scope>
         <sys_update_name>sys_ui_policy_action_a113f5381b9e9d10b7c3dc6cdc4bcb5d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-24 08:26:15</sys_updated_on>
         <table>x_snc_flt_mgmt_maint_task</table>
         <ui_policy display_value="Parent Request fields read only">6f32f9b41b9e9d10b7c3dc6cdc4bcbd5</ui_policy>
         <visible>ignore</visible>

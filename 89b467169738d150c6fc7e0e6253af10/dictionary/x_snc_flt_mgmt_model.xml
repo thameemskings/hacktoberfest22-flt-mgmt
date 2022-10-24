@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Model" max_length="40" name="x_snc_flt_mgmt_model" sizeclass="4" type="collection">
+    <element label="Model" max_length="40" name="x_snc_flt_mgmt_model" type="collection">
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Manufacturer" max_length="32" name="manufacturer" reference="x_snc_flt_mgmt_manufacturer" type="reference"/>
         <element label="Model" max_length="100" name="model" type="string"/>
         <element display="true" label="Model name" max_length="100" name="model_name" type="string"/>

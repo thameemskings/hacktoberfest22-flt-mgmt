@@ -20,7 +20,7 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-22 16:10:34</sys_created_on>
         <sys_domain>global</sys_domain>
-        <sys_domain_path>global</sys_domain_path>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>8643b352b13819104714ca0e5d4d36bd</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>chrome_toolbar</sys_name>

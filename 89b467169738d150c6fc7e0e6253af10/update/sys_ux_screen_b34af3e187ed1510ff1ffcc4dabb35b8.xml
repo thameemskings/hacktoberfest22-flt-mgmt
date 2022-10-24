@@ -121,7 +121,7 @@
         <required_translations>[ ]</required_translations>
         <rollback_screen/>
         <screen_condition/>
-        <screen_type display_value="Viewports">eb4abba187ed1510ff1ffcc4dabb3529</screen_type>
+        <screen_type/>
         <sys_class_name>sys_ux_screen</sys_class_name>
         <sys_created_by>jon.lind</sys_created_by>
         <sys_created_on>2022-08-26 15:32:54</sys_created_on>
